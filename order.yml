@@ -1,0 +1,30 @@
+#druid
+spring:
+  druid:
+    url: jdbc:mysql://172.18.34.9:3306/cloudsell?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    maxActive: 30
+    maxWait: 10000
+  jpa:
+    show-sql: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    default-property-inclusion: non_null
+  application:
+    name: order
+  rabbitmq:
+    host: 172.18.34.9
+    port: 5672
+    username: guest
+    password: guest
+server:
+  port: 9001
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://www.xmcc.com:8761/eureka/,http://www.xmcc.com:8762/eureka/
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
