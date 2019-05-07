@@ -22,9 +22,6 @@ spring:
 server:
   port: 9001
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://www.xmcc.com:8761/eureka/,http://www.xmcc.com:8762/eureka/
+
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml
