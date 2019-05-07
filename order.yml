@@ -22,6 +22,7 @@ spring:
 server:
   port: 9001
 
-
+bus:
+  test1
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml
