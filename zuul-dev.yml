@@ -7,7 +7,7 @@ zuul:
   #ignored-patterns:
   #  - /**/product/zuulTest
     abc:
-      path: /cccc/**
+      path: /eeee/**
       serviceId: product
       sensitiveHeaders:
 
