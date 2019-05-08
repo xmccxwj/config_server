@@ -16,3 +16,9 @@ management:
     web:
       exposure:
         include: "*"
+spring:
+  rabbitmq:
+    host: 172.18.34.9
+    port: 5672
+    username: guest
+    password: guest
