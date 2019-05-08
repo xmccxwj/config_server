@@ -23,6 +23,6 @@ server:
   port: 9001
 
 bus: 
-  test: dddddd
+  test: eeeee
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml
