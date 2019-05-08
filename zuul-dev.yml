@@ -22,3 +22,5 @@ spring:
     port: 5672
     username: guest
     password: guest
+a:
+  b: 10
