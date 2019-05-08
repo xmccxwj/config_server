@@ -1,0 +1,18 @@
+server:
+  port: 7000
+zuul:
+  routes:
+#    product: /abc/**
+
+  #ignored-patterns:
+  #  - /**/product/zuulTest
+    abc:
+      path: /abc/**
+      serviceId: product
+      sensitiveHeaders:
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
