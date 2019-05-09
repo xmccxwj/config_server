@@ -24,3 +24,5 @@ spring:
     password: guest
 
 
+bus:
+  test: dddddd
